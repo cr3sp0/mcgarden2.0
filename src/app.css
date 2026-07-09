@@ -35,9 +35,8 @@ html, body {
 }
 
 @media (max-width: 800px) {
-        .section {
-            padding: var(--nav-h-mobile) var(--side-padding);
-
-        }
-    }
+  .section {
+    padding: var(--nav-h-mobile) var(--side-padding);
+  }
+}
 
