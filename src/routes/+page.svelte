@@ -1,27 +1,33 @@
 <script>
+	import Chisiamomobile from "$lib/components/chisiamomobile.svelte";
+	import Footer from "$lib/components/footer.svelte";
+	import Gallery from "$lib/components/gallery.svelte";
+	import Hero from "$lib/components/hero.svelte";
 	import Navbar from "$lib/components/navbar.svelte";
+	import Chisiamo from "../lib/components/chisiamo.svelte";
 
+    let screenWidth = $state(1024);
 </script>
+
+<svelte:window bind:innerWidth={screenWidth} />
+
 <div class="container">
-    <div class="hero">
-        <Navbar />
-    </div>
+    <Navbar />
+    <Hero />
+    {#if screenWidth < 800}
+	    <Chisiamomobile />
+    {:else}
+	    <Chisiamo />
+    {/if}
+    <Gallery/>
+    <Footer/>
 </div>
 
 <style>
     .container {
         width: 100%;
-        height: 100%;
-
         display: flex;
         flex-direction: column;
-    }
-
-    .hero {
-        background-color: #429C48;
-        width: 100%;
-        height: 100vh;
-        padding: 0 50px;
-        box-sizing: border-box;
+        align-items: center;
     }
 </style>

@@ -1,11 +1,21 @@
-<script lang="ts">
-	import favicon from '$lib/assets/favicon.svg';
-	import "../app.css"
-	let { children } = $props();
+<script>
+    import { onMount } from 'svelte';
+    import Lenis from 'lenis';
+    import 'lenis/dist/lenis.css';
+	import '../app.css'
+
+    onMount(() => {
+        const lenis = new Lenis({
+            autoRaf: true,
+        });
+
+        return () => {
+            lenis.destroy();
+        };
+    });
+
+	let {children} = $props();
 </script>
-
-<svelte:head>
-	<link rel="icon" href={favicon} />
-</svelte:head>
-
-{@render children()}
+<main>
+    {@render children()}
+</main>
