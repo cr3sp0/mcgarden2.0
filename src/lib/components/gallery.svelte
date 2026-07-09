@@ -179,4 +179,10 @@
 		
 		transform: translate(-50%, -50%);
 	}
+
+	@media (max-width: 800px) {
+        .custom-cursor{
+            display: none;
+        }
+    }
 </style>
