@@ -4,7 +4,7 @@
     import { navTrigger } from '$lib/navState.svelte';
 </script>
 
-    <div class="hero section" use:navTrigger={'light'}>
+    <div class="hero section" use:navTrigger={'light'} id="hero">
         <div class="hero-image">
         <img src={Landscape} alt="landscape" srcset="">
         </div>

@@ -47,7 +47,7 @@
 	});
 </script>
 
-<div class="chisiamo-container section" use:navTrigger={'dark'}>
+<div class="chisiamo-container section" use:navTrigger={'dark'} id="chisiamo">
 	<div class="text-column">
 		<div class="title">Chi Siamo</div>
 

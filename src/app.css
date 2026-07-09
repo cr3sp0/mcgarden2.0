@@ -23,6 +23,7 @@ html, body {
     
   background-color: black;
   font-family: var(--font-mono);
+  scroll-behavior: smooth;
 }
 
 .section{

@@ -14,9 +14,9 @@
     </div>
     
     <div class="nav-right nav-section">
-        <a href="*">Chi siamo</a>
-        <a href="*">Servizi</a>
-        <a class="big-a" href="*">CONTATTACI</a>
+        <a href="#chisiamo">Chi siamo</a>
+        <a href="#gallery">Servizi</a>
+        <a class="big-a" href="#footer">CONTATTACI</a>
     </div>
 </div>
 

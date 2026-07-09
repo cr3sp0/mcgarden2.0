@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="site-footer" id="footer">
     <div class="footer-container section">
         <div class="footer-title">Contatti</div>
         <div class="footer-element">

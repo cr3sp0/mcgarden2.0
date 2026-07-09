@@ -53,6 +53,7 @@
 
 <div
 	class="gallery-container section"
+	id="gallery"
 	use:navTrigger={'light'}
 	role="button"
 	tabindex="0"
