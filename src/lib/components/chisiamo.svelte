@@ -6,7 +6,7 @@
 
 	const sections = [
 		{
-			text: "MC Garden è un’azienda che da anni opera nel settore del giardinaggio. Specializzata nell’istallazione e manutenzione robot tagliaerba ed attrezzature a batteria.",
+			text: "MC Garden è un’azienda che da anni opera nel settore del giardinaggio. Specializzata nell’installazione e manutenzione robot tagliaerba ed attrezzature a batteria.",
 			image: Pool
 		},
 		{
