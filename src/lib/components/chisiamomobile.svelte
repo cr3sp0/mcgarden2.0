@@ -7,7 +7,7 @@
 
 <div class="chisiamo-container section" use:navTrigger={'dark'}>
 		<div class="title">Chi Siamo</div>
-		<div class="text">MC Garden è un’azienda che da anni opera nel settore del giardinaggio. Specializzata nell’istallazione e manutenzione robot tagliaerba ed attrezzature a batteria.</div>
+		<div class="text">MC Garden è un’azienda che da anni opera nel settore del giardinaggio. Specializzata nell’installazione e manutenzione robot tagliaerba ed attrezzature a batteria.</div>
         
         <div class="image-container">
 			<img src={Pool}	alt="Pool"/>
